@@ -1,8 +1,12 @@
 # Lesson 4: Calculating New Values
 ## Keywords/shortcuts 
-ROUND(SUM,N): Will round the result of the SUM to N decimal places.
-AS: Will name the column that the result of the query sum will create (rather than just naming it the sum as default)
-||: Concatenation operator, will combine the values of two columns.
+- ROUND(SUM,N): Will round the result of the SUM to N decimal places.
+- AS: Will name the column that the result of the query sum will create (rather than just naming it the sum as default)
+- ||: Concatenation operator, will combine the values of two columns.
+- UNION: Will combine the results of two complete, seperate queries and return unique values.
+- UNION ALL: Is the same as the "UNION" operator except it does NOT eliminate duplicate rows.
+- INSTR(X, Y): Will tell you at what location (as a number counting from the first character as 1) string Y is within string X.
+- SUBSTR(X, I, L): Will return the actual value from string X, starting at position I, of length L.
 
 ## Calculation Within Queries
 - You can apply calculations on the fly in the query, for example this query will multiply all results in the reading column by 1.05:

@@ -1,8 +1,8 @@
 # Lesson 3: Filtering
 ## Keywords/shortcuts
-WHERE: Applies a filter to query using boolean operators such as =, <, > etc.
-AND: Can be used to apply multiple filters sequentially
-OR: Can be used to apply multiple filters in parallel
+- WHERE: Applies a filter to query using boolean operators such as =, <, > etc.
+- AND: Can be used to apply multiple filters sequentially
+- OR: Can be used to apply multiple filters in parallel
 
 ## WHERE command
 - Filtering is one of the most powerful uses of SQL and can be done using the "WHERE" command, for example:
