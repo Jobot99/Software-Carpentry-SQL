@@ -1,6 +1,7 @@
 # Lesson 5: Missing Data
 ## Keywords/shortcuts
-
+IS NULL: Will filter based on a value being null within specified fields.
+IS NOT NULL: Will filter based on a value NOT being null within specified fields.
 
 ## Null Values
 - By default SQLite does not disiplay null values in output, we'll use .nullvalue to assign a visible null value.
